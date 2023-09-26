@@ -1,0 +1,41 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+    font-weight: 900;
+    padding: 30px;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.content {
+    position: absolute;
+    top: 250px;
+    left: 460px;
+
+}
+
+.github-logo {
+    width: auto;
+    height: 100px;
+    margin-left: 50px;
+    position:absolute;
+    border:black 10px double;
+    
+    
+}
+.github-logo:hover{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    width: auto;
+    height: 250px;
+}
